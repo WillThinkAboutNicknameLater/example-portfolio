@@ -331,6 +331,16 @@ body {
   }
 }
 
+@media (max-width: 1000px) {
+  .project-text {
+    margin-left: 5%;
+  }
+
+  .contacts-text {
+    margin-left: 5%;
+  }
+}
+
 @media (max-width: 850px) {
   .hero-content {
     flex-direction: column;
