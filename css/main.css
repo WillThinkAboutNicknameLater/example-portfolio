@@ -332,11 +332,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .project-text {
-    margin-left: 5%;
-  }
-
-  .contacts-text {
+  .project-text, .contacts-text {
     margin-left: 5%;
   }
 }
@@ -375,6 +371,10 @@ body {
 
   .contacts-form {
     margin-bottom: 45px;
+  }
+
+  .project-text, .contacts-text {
+    margin-left: 0;
   }
 }
 
